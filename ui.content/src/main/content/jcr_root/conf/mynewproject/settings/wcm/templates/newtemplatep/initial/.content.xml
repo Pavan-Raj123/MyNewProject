@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/NewTemplatetype/settings/wcm/templates/newtemplatep"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="/apps/core/wcm/components/page/v1/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <guidetextdraw
+                jcr:created="{Date}2024-10-22T11:03:36.481+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-10-22T11:04:59.066+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/guidetextdraw"
+                _value="&lt;p>Hi How are you......&lt;/p>&#xa;"
+                guideNodeClass="guideTextDraw"
+                name="hgkjjkklk;l,;'."
+                textIsRich="true"
+                visible="{Boolean}true"/>
+            <responsivegrid
+                jcr:created="{Date}2024-10-22T10:32:20.229+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-10-22T11:05:05.262+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <experiencefragment
+                jcr:created="{Date}2024-10-22T10:32:16.864+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-10-22T11:05:09.406+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
+                text=""/>
+            <contentfragment
+                jcr:created="{Date}2024-10-22T10:32:13.368+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-10-22T11:05:13.243+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dam/cfm/components/contentfragment"
+                text=""/>
+        </root>
+    </jcr:content>
+</jcr:root>
