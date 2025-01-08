@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 package com.mynewproject.core.models;
-
+//Trying to commit it
 import static org.apache.sling.api.resource.ResourceResolver.PROPERTY_RESOURCE_TYPE;
 
 import javax.annotation.PostConstruct;
