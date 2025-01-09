@@ -16,7 +16,7 @@
 package com.mynewproject.core.models;
 //Trying to commit it
 import static org.apache.sling.api.resource.ResourceResolver.PROPERTY_RESOURCE_TYPE;
-//add cmmonet here
+
 import javax.annotation.PostConstruct;
 
 import org.apache.sling.api.resource.Resource;
