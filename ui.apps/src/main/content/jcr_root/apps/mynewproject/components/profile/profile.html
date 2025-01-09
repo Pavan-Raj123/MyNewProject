@@ -1,20 +1,22 @@
-
-
 <sly data-sly-use.model="com.mynewproject.core.models.ProfileComponent" />
 
-               <p ${model.name}></p>
-               <p ${model.age}></p>
-               <p ${model.male}></p>
-               <p ${model.female}></p>
-               <p ${model.address}></p>
-        
-            <sly data-sly-list.item="${model.actions}">
-                <li>
-                        ${item.text}
-                    </a>
-                </li>
-            </sly>
-      
-    </div>
+<p>${model.name}</p>
+<p>${model.age}</p>
 
+<sly data-sly-test="${model.male}">
+    <p>Male</p>
+</sly>
 
+<sly data-sly-test="${model.female}">
+    <p>Female</p>
+</sly>
+
+<p>${model.address @ context='html'}</p>
+
+<ul>
+    <sly data-sly-list.item="${model.actions}">
+        <li>
+            <a href="${item.link}">${item.text}</a>
+        </li>
+    </sly>
+</ul>
