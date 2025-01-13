@@ -1,22 +1,33 @@
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+  <sly data-sly-call="${clientlib.all @ categories='profile_comp'}"></sly>
+
+
+
+
 <sly data-sly-use.model="com.mynewproject.core.models.ProfileComponent" />
 
-<p>${model.name}</p>
-<p>${model.age}</p>
+<div class="profile-card">
+    <p class="profile_name">Name : ${model.name}</p>
+    <p class="profile_age">Age : ${model.age}</p>
 
-<sly data-sly-test="${model.male}">
-    <p>Male</p>
-</sly>
-
-<sly data-sly-test="${model.female}">
-    <p>Female</p>
-</sly>
-
-<p>${model.address @ context='html'}</p>
-
-<ul>
-    <sly data-sly-list.item="${model.actions}">
-        <li>
-            <a href="${item.link}">${item.text}</a>
-        </li>
+    <sly data-sly-test="${model.male}">
+        <p class="profile_gender">Gender : Male</p>
     </sly>
-</ul>
+
+    <sly data-sly-test="${model.female}">
+        <p class="profile_gender">Female</p>
+    </sly>
+
+    <p class="profile_address">Address : ${ model.address @ context='html'}</p> </br>
+
+    <ul> Skills:
+        <sly data-sly-list.item="${model.actions}">
+            <li class="profile_skills">  
+                <a href="${item.link}">${item.text}</a>
+            </li>
+        </sly>
+    </ul>
+</div>
+
+</sly>

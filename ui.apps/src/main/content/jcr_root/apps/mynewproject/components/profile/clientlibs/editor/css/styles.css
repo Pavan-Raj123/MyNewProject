@@ -1,0 +1,84 @@
+/* General reset for box-sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Profile card container */
+.profile-card {
+  width: 450px;
+  margin: 55px auto;
+  padding: 40px;
+  background-color: #8fffb6;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+  text-align: start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the card */
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile name styling */
+.profile_name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Profile age styling */
+.profile_age {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Profile gender styling */
+.profile_gender {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Profile address styling */
+.profile_address {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+/* Skills list styling */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Skills list item styling */
+.profile_skills {
+  margin: 25px 0;
+}
+
+.profile_skills a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.profile_skills a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
