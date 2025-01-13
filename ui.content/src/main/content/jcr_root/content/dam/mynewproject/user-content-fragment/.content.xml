@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7910d924-34a9-4ec2-822d-4c5b7f3a2ab2">
+    <jcr:content
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="User Content Fragment"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/mynewproject/settings/dam/cfm/models/user-cf-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                image_x0040_LastModified="{Date}2025-01-08T19:28:05.488+05:30"
+                username_x0040_LastModified="{Date}2025-01-08T19:28:05.488+05:30"
+                userphonenumber_x0040_LastModified="{Date}2025-01-08T19:28:05.488+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
