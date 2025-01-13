@@ -24,6 +24,11 @@ public class PageCreationByServletPathBased extends SlingAllMethodsServlet {
     PageCreationServiceInterface pageCreationServiceInterface;
 
     ResourceResolver resourceResolver;
+    // 2nd way of getting resourceResolver
+    //Resource resource = null;
+    //resource.getResourceResolver();
+    // 3rd way of getting resoureResolver
+    //Service/system user - ResolverResolverfactory get resolver resolver 
 
     @Override
     protected void doGet(final SlingHttpServletRequest req , final SlingHttpServletResponse resp)

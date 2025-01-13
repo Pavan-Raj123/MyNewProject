@@ -1,4 +1,4 @@
-package com.mynewproject.core.impl;
+package com.mynewproject.core.service.impl;
 
 import org.apache.sling.api.resource.ResourceResolver;
 import org.osgi.service.component.annotations.Component;
