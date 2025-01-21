@@ -1,0 +1,16 @@
+{
+    "name": "Gavvala",
+    "age": "26",
+    "male": "Male",
+    "female": "Female",
+    "address": "bangalore",
+    "actions":{
+        "item0":{
+            "text": "OSGI"
+        },
+        "item1":{
+            "text": "Servlet"
+        }
+        
+    }
+}
